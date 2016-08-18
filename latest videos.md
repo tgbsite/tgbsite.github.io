@@ -1,0 +1,1 @@
+permalink: /latest-videos.html
