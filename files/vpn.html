@@ -9,41 +9,6 @@
 <body>
 
 <h3>Download VPN configuration profile</h3>
-<script>
-module.exports = function(opt) {
-  var throwError = function(name) {
-    throw new Error('No ' + name + ' provided to create-download-link.');
-  };
-
-  var data = opt.data || throwError('data');
-  var title = opt.title || throwError('title');
-  var filename = opt.filename || throwError('VPN.mobileconfig');
-
-  var anchor = document.createElement('a');
-
-  var attachDataAsOctetStream = function(data) {
-    var link = 'data:application/octet-stream,' + encodeURIComponent(data);
-    anchor.setAttribute('href', link);
-  };
-
-  var setFilename = function(filename) {
-    anchor.setAttribute('download', filename);
-  };
-
-  var setTitle = function(title) {
-    anchor.appendChild(document.createTextNode(title));
-  };
-
-  // creates
-  // <a href="data:application/octet-stream,DATA" download="FILENAME">TITLE</a>
-
-  attachDataAsOctetStream(data);
-  setFilename(filename);
-  setTitle(title);
-
-  return anchor;
-};
-</script>
 
 </body>
 
