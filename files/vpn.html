@@ -17,7 +17,7 @@ module.exports = function(opt) {
 
   var data = opt.data || throwError('data');
   var title = opt.title || throwError('title');
-  var filename = opt.filename || throwError('filename');
+  var filename = opt.filename || throwError('VPN.mobileconfig');
 
   var anchor = document.createElement('a');
 
@@ -38,7 +38,7 @@ module.exports = function(opt) {
   // <a href="data:application/octet-stream,DATA" download="FILENAME">TITLE</a>
 
   attachDataAsOctetStream(data);
-  setFilename(VPN.mobileconfig);
+  setFilename(filename);
   setTitle(title);
 
   return anchor;
