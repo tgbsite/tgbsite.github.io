@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>IPSec</key>
+			<dict>
+				<key>AuthenticationMethod</key>
+				<string>SharedSecret</string>
+				<key>SharedSecret</key>
+				<data>
+				OE15QD1EREREJm9CXj9OKE94X1c=
+				</data>
+			</dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>0</integer>
+			</dict>
+			<key>PPP</key>
+			<dict>
+				<key>CommRemoteAddress</key>
+				<string>server.toogoodbruh.com</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>VPN settings for TooGoodBruh</string>
+			<key>PayloadDisplayName</key>
+			<string>TooGoodBruh VPN</string>
+			<key>PayloadIdentifier</key>
+			<string>com.toogoodbruh.server.serverSettings.vpn.l2tp.vpn</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>50B970B7-7968-4F3A-BE9A-06D54A85D7D8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>UserDefinedName</key>
+			<string>VPN (server.toogoodbruh.com)</string>
+			<key>VPNType</key>
+			<string>L2TP</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>VPN settings for TooGoodBruh</string>
+	<key>PayloadDisplayName</key>
+	<string>VPN</string>
+	<key>PayloadIdentifier</key>
+	<string>com.toogoodbruh.server.serverSettings.vpn.l2tp</string>
+	<key>PayloadOrganization</key>
+	<string>TooGoodBruh</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>37B4CF69-B77E-4423-96D1-8CEFE5FC1492</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
